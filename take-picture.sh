@@ -30,4 +30,4 @@ FILE_NAME=`date +%H_%M_%S`
 # file path
 FILE_PATH="$DIRECTORY_PATH/$FILE_NAME.jpg"
 
-COMMAND=`fswebcam -r 1920x1080 $FILE_PATH`
+COMMAND=`fswebcam -r 800x600 $FILE_PATH`
